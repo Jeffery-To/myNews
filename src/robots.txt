@@ -1,0 +1,12 @@
+# robots.txt可以告诉爬虫您网站的哪些页面可以被抓取，哪些页面不可以被抓取。
+# http://zhanzhang.baidu.com/robots/index
+
+User-agent: 360Spider
+# Allow:
+Disallow: /
+
+User-agent: *
+Disallow: /subject_search
+Disallow: /amazon_search
+Disallow: /search
+# Crawl-delay: 120

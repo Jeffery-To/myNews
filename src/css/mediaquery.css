@@ -1,0 +1,34 @@
+/*===== 媒体查询 =====*/
+
+/* media rem相对于浏览器样式 默认1rem = 16px 最低下线为12px */
+@media only screen and (max-width: 30em) {
+/*0~480px*/
+    body {
+        background-color: red;
+    }
+
+}
+
+@media only screen and (min-width: 30.0625em) and (max-width: 50em) {
+/*481px~800px*/
+    body {
+        background-color: yellow;
+    }
+
+}
+
+@media only screen and (min-width: 50.0625em) and (max-width: 87.5em) {
+/*801px~1400px*/
+    body {
+        background-color: blue;
+    }
+
+}
+
+@media only screen and (min-width: 87.5625em) {
+/*1401px~ */
+    body {
+        background-color: green;
+    }
+
+}

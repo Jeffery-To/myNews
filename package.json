@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "Jeffery-To/webProTemplate",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "Jeffery-To/webProTemplate",
+        "spec": "github:jeffery-to/webProTemplate",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:jeffery-to/webProTemplate.git",
+          "sshUrl": "git+ssh://git@github.com/jeffery-to/webProTemplate.git",
+          "httpsUrl": "git+https://github.com/jeffery-to/webProTemplate.git",
+          "gitUrl": "git://github.com/jeffery-to/webProTemplate.git",
+          "shortcut": "github:jeffery-to/webProTemplate",
+          "directUrl": "https://raw.githubusercontent.com/jeffery-to/webProTemplate/master/package.json"
+        }
+      },
+      "D:\\WorkSpace\\myNews"
+    ]
+  ],
+  "_from": "jeffery-to/webProTemplate",
+  "_id": "webprotemplate@1.0.0",
+  "_inCache": true,
+  "_location": "/webprotemplate",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "Jeffery-To/webProTemplate",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "Jeffery-To/webProTemplate",
+    "spec": "github:jeffery-to/webProTemplate",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:jeffery-to/webProTemplate.git",
+      "sshUrl": "git+ssh://git@github.com/jeffery-to/webProTemplate.git",
+      "httpsUrl": "git+https://github.com/jeffery-to/webProTemplate.git",
+      "gitUrl": "git://github.com/jeffery-to/webProTemplate.git",
+      "shortcut": "github:jeffery-to/webProTemplate",
+      "directUrl": "https://raw.githubusercontent.com/jeffery-to/webProTemplate/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/jeffery-to/webProTemplate.git#bc31626fd663a3f4bfa9c70457503c31751dc5f8",
+  "_shasum": "edb3cce44c3354ac931987c5578cd08fff5d3c24",
+  "_shrinkwrap": null,
+  "_spec": "Jeffery-To/webProTemplate",
+  "_where": "D:\\WorkSpace\\myNews",
+  "author": {
+    "name": "Jeffery-To"
+  },
+  "bugs": {
+    "url": "https://github.com/Jeffery-To/webProTemplate/issues"
+  },
+  "dependencies": {},
+  "description": "web template",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-filter": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "jshint": "^2.9.4",
+    "main-bower-files": "^2.13.1",
+    "wiredep": "^4.0.0"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "gitHead": "bc31626fd663a3f4bfa9c70457503c31751dc5f8",
+  "homepage": "https://github.com/Jeffery-To/webProTemplate#readme",
+  "keywords": [
+    "web"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "webprotemplate",
+  "optionalDependencies": {},
+  "readme": "\r\n-----使用-----\r\n\r\n依赖：\r\n安装nodejs\r\n\r\nnpm install -g gulp\r\n\r\nnpm install -g bower\r\n\r\n项目：\r\n1. npm install\r\n\r\n2. bower update / install\r\n\r\n3. gulp serve\r\n\r\n\r\n注：\r\n1.gulpfile.js未完成\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffery-To/webProTemplate.git"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "version": "1.0.0"
+}
