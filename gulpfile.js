@@ -76,7 +76,7 @@ gulp.task('images', function() {
 });
 //.pipe($.cache($.imagemin()))
 
-//10.gulp-responsive  [生成响应式图片]                https://www.npmjs.com/package/gulp-responsive/
+//10.gulp-responsive  [生成响应式图片]         https://www.npmjs.com/package/gulp-responsive/
 
 gulp.task('fonts', function() {
   // return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
@@ -95,6 +95,25 @@ gulp.task('extras', () => {
 gulp.task('clean', del.bind(null, ['dist']));
 
 
+/************ 本项目 **********/
+//start
+gulp.task('dist', ['clean'], function() {
+    return gulp.src(['**/*.css', '!css/main.css',
+                     '**/*.js', '**/*.json',
+                     '*.ico', '*.html', '!404.html'], {cwd: 'src'})
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('serve:dist:news', ['dist'], function() {
+    browserSync.init({
+        notify: false,
+        port: 9000,
+        server: {
+            baseDir: 'dist'
+        }
+    });
+});
+//end
 
 
 // 静态服务器

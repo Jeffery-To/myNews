@@ -5,6 +5,6 @@
 
 2. bower update / install
 
-3. gulp serve
+3. gulp serve / serve:dist:news
 
 
