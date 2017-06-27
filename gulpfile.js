@@ -113,6 +113,16 @@ gulp.task('serve:dist:news', ['dist'], function() {
         }
     });
 });
+
+gulp.task('serve:src', function() {
+    browserSync.init({
+        notify: false,
+        port: 9000,
+        server: {
+            baseDir: 'src'
+        }
+    });
+});
 //end
 
 
